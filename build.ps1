@@ -13,6 +13,7 @@ $VERSIONS = @(
     3.15
     3.16
     3.17
+    3.18
     "latest"
 )
 foreach ( $VERSION in $VERSIONS ) {
