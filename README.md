@@ -8,7 +8,7 @@ These are docker images based off of official Alpine images on Docker Hub.
 
 | Tag    | GitHub Container registry (ghcr.io)   | Latest | Docker hub              |
 |--------|---------------------------------------|--------|-------------------------|
-| `3.18` | `ghcr.io/kdpuvvadi/alpine:3.18`       | &check;| `kdpuvvadi/alpine:3.17` |
+| `3.18` | `ghcr.io/kdpuvvadi/alpine:3.18`       | &check;| `kdpuvvadi/alpine:3.18` |
 | `3.17` | `ghcr.io/kdpuvvadi/alpine:3.17`       |        | `kdpuvvadi/alpine:3.17` |
 | `3.16` | `ghcr.io/kdpuvvadi/alpine:3.16`       |        | `kdpuvvadi/alpine:3.16` |
 | `3.15` | `ghcr.io/kdpuvvadi/alpine:3.15`       |        | `kdpuvvadi/alpine:3.15` |
