@@ -3,6 +3,8 @@ name: build
 on:
   workflow_dispatch:
   release:
+  schedule:
+    - cron: "0 7 * * 1"
 
 jobs:
   build:
