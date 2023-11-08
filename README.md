@@ -23,4 +23,4 @@ These are docker images based off of official Alpine images on Docker Hub.
 - jq
 
 ## LICENSE
-(MIT)(/LICENSE)
+[MIT](/LICENSE)
