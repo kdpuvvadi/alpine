@@ -1,4 +1,4 @@
-ARG IMAGE_TAG="${IMAGE_TAG:-3.18}"
+ARG IMAGE_TAG="${IMAGE_TAG:-3.19}"
 FROM alpine:${IMAGE_TAG} AS base
 LABEL maintainer="KD Puvvadi <kd@puvvadi.me>"
 
