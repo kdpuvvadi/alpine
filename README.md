@@ -6,17 +6,24 @@ These are docker images based off of official Alpine images on Docker Hub.
 
 ## Tags
 
+### Supported
+
 | Tag    | GitHub Container registry (ghcr.io)   | Latest | Docker hub              |
 |--------|---------------------------------------|--------|-------------------------|
 | `3.19` | `ghcr.io/kdpuvvadi/alpine:3.19`       | &check;| `kdpuvvadi/alpine:3.19` |
 | `3.18` | `ghcr.io/kdpuvvadi/alpine:3.18`       |        | `kdpuvvadi/alpine:3.18` |
 | `3.17` | `ghcr.io/kdpuvvadi/alpine:3.17`       |        | `kdpuvvadi/alpine:3.17` |
 | `3.16` | `ghcr.io/kdpuvvadi/alpine:3.16`       |        | `kdpuvvadi/alpine:3.16` |
-| `3.15` | `ghcr.io/kdpuvvadi/alpine:3.15`       |        | `kdpuvvadi/alpine:3.15` |
-| `3.14` | `ghcr.io/kdpuvvadi/alpine:3.14`       |        | `kdpuvvadi/alpine:3.14` |
-| `3.13` | `ghcr.io/kdpuvvadi/alpine:3.13`       |        | `kdpuvvadi/alpine:3.13` |
-| `3.12` | `ghcr.io/kdpuvvadi/alpine:3.12`       |        | `kdpuvvadi/alpine:3.12` |
-| `3.11` | `ghcr.io/kdpuvvadi/alpine:3.11`       |        | `kdpuvvadi/alpine:3.11` |
+
+### End of Life
+
+| Tag    | GitHub Container registry (ghcr.io)   | Docker hub              |
+|--------|---------------------------------------|-------------------------|
+| `3.15` | `ghcr.io/kdpuvvadi/alpine:3.15`       | `kdpuvvadi/alpine:3.15` |
+| `3.14` | `ghcr.io/kdpuvvadi/alpine:3.14`       | `kdpuvvadi/alpine:3.14` |
+| `3.13` | `ghcr.io/kdpuvvadi/alpine:3.13`       | `kdpuvvadi/alpine:3.13` |
+| `3.12` | `ghcr.io/kdpuvvadi/alpine:3.12`       | `kdpuvvadi/alpine:3.12` |
+| `3.11` | `ghcr.io/kdpuvvadi/alpine:3.11`       | `kdpuvvadi/alpine:3.11` |
 
 ## Additional Tools installed
 
