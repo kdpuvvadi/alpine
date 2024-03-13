@@ -29,6 +29,8 @@ These are docker images based off of official Alpine images on Docker Hub.
 
 - curl
 - jq
+- zip
+- ca-certificates
 
 ## Dockerfile
 
