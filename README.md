@@ -46,7 +46,7 @@ COPY --from=base / /
 # upgrade
 RUN apk --no-cache upgrade --purge
 # install packages
-RUN apk --no-cache add jq curl
+RUN apk --no-cache add jq curl zip ca-certificates
 
 CMD ["/bin/sh"]
 ```
