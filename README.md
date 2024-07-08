@@ -10,7 +10,8 @@ These are docker images based off of official Alpine images on Docker Hub.
 
 | Tag    | GitHub Container registry (ghcr.io)   | Latest | Docker hub              |
 |--------|---------------------------------------|--------|-------------------------|
-| `3.19` | `ghcr.io/kdpuvvadi/alpine:3.19`       | &check;| `kdpuvvadi/alpine:3.19` |
+| `3.20` | `ghcr.io/kdpuvvadi/alpine:3.20`       | &check;| `kdpuvvadi/alpine:3.20` |
+| `3.19` | `ghcr.io/kdpuvvadi/alpine:3.19`       |        | `kdpuvvadi/alpine:3.19` |
 | `3.18` | `ghcr.io/kdpuvvadi/alpine:3.18`       |        | `kdpuvvadi/alpine:3.18` |
 | `3.17` | `ghcr.io/kdpuvvadi/alpine:3.17`       |        | `kdpuvvadi/alpine:3.17` |
 

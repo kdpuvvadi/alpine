@@ -1,4 +1,4 @@
-ARG IMAGE_TAG="${IMAGE_TAG:-3.19}"
+ARG IMAGE_TAG="${IMAGE_TAG:-3.20}"
 FROM alpine:${IMAGE_TAG} AS base
 LABEL org.opencontainers.image.title="alpine"
 LABEL org.opencontainers.image.authors="KD Puvvadi <kd@puvvadi.me>"
