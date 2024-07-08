@@ -13,12 +13,12 @@ These are docker images based off of official Alpine images on Docker Hub.
 | `3.19` | `ghcr.io/kdpuvvadi/alpine:3.19`       | &check;| `kdpuvvadi/alpine:3.19` |
 | `3.18` | `ghcr.io/kdpuvvadi/alpine:3.18`       |        | `kdpuvvadi/alpine:3.18` |
 | `3.17` | `ghcr.io/kdpuvvadi/alpine:3.17`       |        | `kdpuvvadi/alpine:3.17` |
-| `3.16` | `ghcr.io/kdpuvvadi/alpine:3.16`       |        | `kdpuvvadi/alpine:3.16` |
 
 ### End of Life
 
 | Tag    | GitHub Container registry (ghcr.io)   | Docker hub              |
 |--------|---------------------------------------|-------------------------|
+| `3.16` | `ghcr.io/kdpuvvadi/alpine:3.16`       | `kdpuvvadi/alpine:3.16` |
 | `3.15` | `ghcr.io/kdpuvvadi/alpine:3.15`       | `kdpuvvadi/alpine:3.15` |
 | `3.14` | `ghcr.io/kdpuvvadi/alpine:3.14`       | `kdpuvvadi/alpine:3.14` |
 | `3.13` | `ghcr.io/kdpuvvadi/alpine:3.13`       | `kdpuvvadi/alpine:3.13` |

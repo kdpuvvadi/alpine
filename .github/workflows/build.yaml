@@ -17,7 +17,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        version: [3.16, 3.17, 3.18, 3.19, latest]
+        version: [3.17, 3.18, 3.19, latest]
 
     steps:
       - name: Checkout repository
