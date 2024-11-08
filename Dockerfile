@@ -5,7 +5,7 @@ FROM alpine:${IMAGE_TAG} AS base
 RUN apk --no-cache upgrade --purge
 # install packages
 RUN apk --no-cache add jq curl zip ca-certificates
-
+RUN update-ca-certificates
 # copy everything from base
 FROM scratch
 COPY --from=base / /
