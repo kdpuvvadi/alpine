@@ -48,6 +48,13 @@ jobs:
           file: ./Dockerfile
           platforms: linux/386,linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6
           push: true
+          annotations: |
+            org.opencontainers.image.title="alpine"
+            org.opencontainers.image.authors="KD Puvvadi <kd@puvvadi.me>"
+            org.opencontainers.image.source="https://github.com/kdpuvvadi/alpine"
+            org.opencontainers.image.description="Alpine Linux docker images based off of official Alpine images on Docker Hub"
+            org.opencontainers.image.licenses="MIT"
+            org.opencontainers.image.version=${IMAGE_TAG}
           build-args:
             IMAGE_TAG=${{ matrix.version }}
           tags: |
