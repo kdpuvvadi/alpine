@@ -6,9 +6,9 @@ Switch ($Reg)
 }
 
 $VERSIONS = @(
-    3.17
     3.18
     3.19
+    3.20
     "latest"
 )
 foreach ( $VERSION in $VERSIONS ) {
