@@ -10,7 +10,8 @@ These are docker images based off of official Alpine images on Docker Hub.
 
 | Tag    | GitHub Container registry (ghcr.io)   | Latest | Docker hub              |
 |--------|---------------------------------------|--------|-------------------------|
-| `3.20` | `ghcr.io/kdpuvvadi/alpine:3.20`       | &check;| `kdpuvvadi/alpine:3.20` |
+| `3.21` | `ghcr.io/kdpuvvadi/alpine:3.21`       | &check;| `kdpuvvadi/alpine:3.21` |
+| `3.20` | `ghcr.io/kdpuvvadi/alpine:3.20`       |        | `kdpuvvadi/alpine:3.20` |
 | `3.19` | `ghcr.io/kdpuvvadi/alpine:3.19`       |        | `kdpuvvadi/alpine:3.19` |
 | `3.18` | `ghcr.io/kdpuvvadi/alpine:3.18`       |        | `kdpuvvadi/alpine:3.18` |
 
@@ -32,25 +33,6 @@ These are docker images based off of official Alpine images on Docker Hub.
 - jq
 - zip
 - ca-certificates
-
-## Dockerfile
-
-```Dockerfile
-ARG IMAGE_TAG="${IMAGE_TAG:-3.19}"
-FROM alpine:${IMAGE_TAG} AS base
-LABEL maintainer="KD Puvvadi <kd@puvvadi.me>"
-
-# copy everything from base
-FROM scratch
-COPY --from=base / /
-
-# upgrade
-RUN apk --no-cache upgrade --purge
-# install packages
-RUN apk --no-cache add jq curl zip ca-certificates
-
-CMD ["/bin/sh"]
-```
 
 ## LICENSE
 [MIT](/LICENSE)
