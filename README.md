@@ -27,12 +27,12 @@ These are docker images based off of official Alpine images on Docker Hub.
 | `3.12` | `ghcr.io/kdpuvvadi/alpine:3.12`       | `kdpuvvadi/alpine:3.12` |
 | `3.11` | `ghcr.io/kdpuvvadi/alpine:3.11`       | `kdpuvvadi/alpine:3.11` |
 
-## Additional Tools installed
+## Additional packages installed
 
-- curl
-- jq
-- zip
-- ca-certificates
+- [curl](https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/curl/APKBUILD)
+- [jq](https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/jq/APKBUILD)
+- [zip](https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/zip/APKBUILD)
+- [ca-certificates](https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/ca-certificates/APKBUILD)
 
 ## LICENSE
 [MIT](/LICENSE)
