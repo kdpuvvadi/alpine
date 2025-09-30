@@ -10,15 +10,17 @@ These are docker images based off of official Alpine images on Docker Hub.
 
 | Tag    | GitHub Container registry (ghcr.io)   | Latest | Docker hub              |
 |--------|---------------------------------------|--------|-------------------------|
-| `3.21` | `ghcr.io/kdpuvvadi/alpine:3.21`       | &check;| `kdpuvvadi/alpine:3.21` |
+| `3.22` | `ghcr.io/kdpuvvadi/alpine:3.22`       | &check;| `kdpuvvadi/alpine:3.22` |
+| `3.21` | `ghcr.io/kdpuvvadi/alpine:3.21`       |        | `kdpuvvadi/alpine:3.21` |
 | `3.20` | `ghcr.io/kdpuvvadi/alpine:3.20`       |        | `kdpuvvadi/alpine:3.20` |
 | `3.19` | `ghcr.io/kdpuvvadi/alpine:3.19`       |        | `kdpuvvadi/alpine:3.19` |
-| `3.18` | `ghcr.io/kdpuvvadi/alpine:3.18`       |        | `kdpuvvadi/alpine:3.18` |
+
 
 ### End of Life
 
 | Tag    | GitHub Container registry (ghcr.io)   | Docker hub              |
 |--------|---------------------------------------|-------------------------|
+| `3.18` | `ghcr.io/kdpuvvadi/alpine:3.18`       | `kdpuvvadi/alpine:3.18` |
 | `3.17` | `ghcr.io/kdpuvvadi/alpine:3.17`       | `kdpuvvadi/alpine:3.17` |
 | `3.16` | `ghcr.io/kdpuvvadi/alpine:3.16`       | `kdpuvvadi/alpine:3.16` |
 | `3.15` | `ghcr.io/kdpuvvadi/alpine:3.15`       | `kdpuvvadi/alpine:3.15` |
