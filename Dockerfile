@@ -1,4 +1,4 @@
-ARG IMAGE_TAG="${IMAGE_TAG:-3.22}"
+ARG IMAGE_TAG="${IMAGE_TAG:-3.23}"
 FROM alpine:${IMAGE_TAG} AS base
 
 # upgrade
