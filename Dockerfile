@@ -8,6 +8,7 @@ RUN apk --no-cache add jq curl zip ca-certificates
 RUN update-ca-certificates
 # copy everything from base
 FROM scratch
+ARG IMAGE_TAG
 COPY --from=base / /
 
 # labels
